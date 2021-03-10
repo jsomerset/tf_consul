@@ -23,6 +23,7 @@ variable "ami" {
   default = {
     "us-east-1" = "ami-f652979b"
     "us-west-1" = "ami-7c4b331c"
+    "eu-west-2" = "ami-096cb92bb3580c759"
   }
 
   description = "The AMIs to use for consul instances."
